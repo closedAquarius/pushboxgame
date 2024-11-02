@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Level1</class>
+ <widget class="QMainWindow" name="Level1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>512</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/image/boxfinished.png</normaloff>:/image/boxfinished.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLCDNumber" name="lcdnumber">
+    <property name="geometry">
+     <rect>
+      <x>448</x>
+      <y>0</y>
+      <width>64</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labstep">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>72</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel::labstep{ color: balck; border: 1px solid gray; font-family: '宋体' ;text-align: center; }</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>512</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>菜单</string>
+    </property>
+    <addaction name="restart"/>
+    <addaction name="back"/>
+    <addaction name="help"/>
+    <addaction name="separator"/>
+    <addaction name="backtolevel"/>
+    <addaction name="action1"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="restart">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/restart.png</normaloff>:/image/restart.png</iconset>
+   </property>
+   <property name="text">
+    <string>重新开始(R)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="back">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/back.png</normaloff>:/image/back.png</iconset>
+   </property>
+   <property name="text">
+    <string>撤回(Z)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="help">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/help.png</normaloff>:/image/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>帮助(H)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="backtolevel">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/home1.png</normaloff>:/image/home1.png</iconset>
+   </property>
+   <property name="text">
+    <string>返回(B)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="action1">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/boxfinished.png</normaloff>:/image/boxfinished.png</iconset>
+   </property>
+   <property name="text">
+    <string>遥遥领先</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

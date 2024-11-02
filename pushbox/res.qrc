@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/box.png</file>
+        <file>image/boxfinished.png</file>
+        <file>image/home.png</file>
+        <file>image/home1.png</file>
+        <file>image/smallp.png</file>
+        <file>image/startback.jpg</file>
+        <file>image/wallheng.png</file>
+        <file>image/wallshu.png</file>
+        <file>image/dogcongratulations.png</file>
+        <file>image/warning.png</file>
+        <file>image/map.png</file>
+        <file>image/wall.png</file>
+        <file>image/gamelevelback.jpg</file>
+        <file>music/music1.mp3</file>
+        <file>image/settings.png</file>
+        <file>image/help.png</file>
+        <file>image/back.png</file>
+        <file>image/restart.png</file>
+        <file>image/custom.jpg</file>
+        <file>image/music.png</file>
+        <file>image/musicback.png</file>
+        <file>image/con.png</file>
+    </qresource>
+</RCC>

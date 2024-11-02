@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QWidget" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/image/smallp.png</normaloff>:/image/smallp.png</iconset>
+  </property>
+  <widget class="QLabel" name="help1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>280</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1、游戏宗旨在于将所有箱子推到指定地点</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="help">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>30</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>帮助</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="help2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>280</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2、菜单里的“撤回按键”提供最多一次撤</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="help3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>280</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>回三步，不要贪多哦</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="helpsmallp">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>280</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>3、箱子只能推动不能拉动，一次只能推动</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>280</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>一个箱子哦</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>280</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>4、注意时间要求哦</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
